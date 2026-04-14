@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Aravindhakumar Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .profile-pic {
+      width: 15rem;
+      /* adjust size */
+      height: 14rem;
+      /* keep square */
+      border-radius: 50%;
+      /* makes it circular */
+      object-fit: cover;
+      /* crops nicely */
+      /* white border for contrast */
+      margin-bottom: 20px;
+    }
+
+
+    .container {
+      display: grid;
+      grid-template-columns: 25% 75%;
+      /* narrower sidebar */
+      min-height: 100vh;
+    }
+
+    /* Sidebar split into two blocks */
+    .sidebar-top {
+      background-color: #b71c1c;
+      /* red */
+      padding: 30px;
+      color: #fff;
+    }
+
+    .sidebar-bottom {
+      background-color: #f5c5d2;
+      /* pink */
+      padding: 30px;
+      color: #fff;
+    }
+
+    /* Headings inside sidebar-bottom (Skills, Certifications, etc.) */
+    .sidebar-bottom h2 {
+      color: #b71c1c;
+      /* red text */
+      border-bottom: 2px solid #b71c1c;
+      /* red underline */
+      padding-bottom: 5px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    /* Lists inside sidebar */
+    .sidebar-top ul,
+    .sidebar-bottom ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .sidebar-top ul li,
+    .sidebar-bottom ul li {
+      margin-bottom: 6px;
+    }
+
+    /* Main content */
+    .main {
+      background-color: #fff;
+      padding: 30px;
+    }
+
+    .main h1 {
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      color: #b71c1c;
+      font-size: 21px;
+    }
+
+    .main h2 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      color: #b71c1c;
+      font-size: 18px;
+    }
+
+    .project {
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 1px dotted #b71c1c;
+      /* red dotted line */
+    }
+
+    .project:last-child {
+      border-bottom: none;
+    }
+
+
+    .project h3 {
+      margin-bottom: 5px;
+      color: #b71c1c;
+      font-size: 16px;
+    }
+
+    .project ul {
+      margin-left: 20px;
+    }
+
+    .project li {
+      margin-bottom: 5px;
+    }
+
+    /* Contact section */
+    .contact {
+      margin-bottom: 20px;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .contact-item span {
+      margin-left: 8px;
+      /* spacing between icon and text */
+    }
+
+
+    /* Image placeholder */
+    .svg-placeholder {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 20px;
+    }
+
+    .svg-placeholder rect {
+      fill: #ddd;
+      stroke: #999;
+    }
+
+    /* Table styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th,
+    td {
+      text-align: left;
+      padding: 8px;
+      border: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #eee;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Red top section -->
+      <div class="sidebar-top">
+        <div class="svg-placeholder">
+          <img src="./1cbd2480-6c65-40d1-aade-3f7e44e68854.png" alt="Profile Photo" class="profile-pic">
+        </div>
+      </div>
+       <div class="sidebar-top">
+        <div>
+        <div class="contact">
+          <h1>Aravindhakumar</h1>
+          <div class="contact-item">📍 <span>Bangalore</span></div>
+          <div class="contact-item">📞 <span>7708830579</span></div>
+          <div class="contact-item">✉️ <span>aravindhakumareee2@gmail.com</span></div>
+          <div class="contact-item">💼 <span>Experience: 8.5 Years</span></div>
+        </div>
+        </div>
+
+      </div>
+
+      <!-- Pink bottom section -->
+      <div class="sidebar-bottom">
+        <h2>Skills</h2>
+        <ul style="color:black">
+          <li>React Native - Intermediate</li>
+          <li>AI / ML - Basic</li>
+          <li>SQL - Intermediate</li>
+          <li>Python - Intermediate</li>
+        </ul>
+
+        <h2>Certifications</h2>
+        <ul style="color:black">
+          <li>React JS Professional - 2023</li>
+          <li>Scrum Master PSM_1 - 2023</li>
+        </ul>
+
+        <h2>Languages</h2>
+        <ul style="color:black">
+          <li>Telugu</li>
+          <li>Tamil</li>
+          <li>English</li>
+          <li>Kannada</li>
+          <li>Hindi</li>
+        </ul>
+
+        <h2>Interests</h2>
+        <p style="color:black">Data Science & ML</p>
+
+        <h2>Education</h2>
+        <p style="color:black"><strong>Anna University</strong><br>
+          Bachelor of Engineering in EEE, Chennai, 2017<br>
+          CGPA: 7.77</p>
+      </div>
+    </div>
+    <!-- Main Content -->
+    <div class="main">
+      <h1> React JS Professional</h1>
+      <h2>Summary</h2>
+      <p><strong>Web & Mobile UI Development</strong></p>
+      <p><strong>Web Design Proficiency:</strong> Proven record in designing and deploying interactive, user-centric
+        websites using HTML5, CSS3, JavaScript (ES6), along with proficiency in React.js and React Native frameworks.
+      </p>
+      <p><strong>Project Development and Implementation:</strong> Demonstrated expertise in leading the creation and
+        implementation of a functional web application specifically tailored for a major banking institution.</p>
+
+      <h2>Experience</h2>
+      <table>
+        <tr>
+          <th>Company</th>
+          <th>Location</th>
+          <th>Role</th>
+          <th>Duration</th>
+        </tr>
+        <tr>
+          <td>Synechron Technologies Pvt Ltd</td>
+          <td>Bengaluru</td>
+          <td>Senior Associate Technology</td>
+          <td>Oct 2023 - Present</td>
+        </tr>
+        <tr>
+          <td>Test Yantra Software Solutions Pvt Ltd</td>
+          <td>Bengaluru</td>
+          <td>Senior Associate Technology</td>
+          <td>May 2021 - Aug 2023</td>
+        </tr>
+        <tr>
+          <td>Net Connect Pvt. Ltd</td>
+          <td>Bengaluru</td>
+          <td>Jr Frontend UI Developer</td>
+          <td>Oct 2020 - May 2021</td>
+        </tr>
+        <tr>
+          <td>Ivtl Infoview Technologies Pvt Ltd</td>
+          <td>Chennai</td>
+          <td>Jr Frontend UI Developer</td>
+          <td>Jul 2017 - Jul 2020</td>
+        </tr>
+      </table>
+
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Mashreq Digital Customer Journey</h3>
+        <p><strong>Duration:</strong> Oct 2023 – Apr 2026</p>
+        <p><strong>Description:</strong> Banking application with scalable frontend architecture, seamless onboarding,
+          and AI-driven experiences.</p>
+        <ul>
+          <li>Led and mentored 10 frontend developers</li>
+          <li>Designed UI architecture with React & Next.js (Atomic Design)</li>
+          <li>Developed Digital Onboarding, KYC, and PACE UI components</li>
+          <li>Contributed to GEN AI-based UI enhancements</li>
+          <li>Integrated ISAM for secure authentication</li>
+          <li>Improved performance and maintainability</li>
+          <li>Conducted code reviews and guided juniors</li>
+        </ul>
+        <p><a href="https://www.mashreq.com/en/uae/neo/">Project Link</a></p>
+      </div>
+
+
+      <div class="project">
+        <h3>CEME Engagement (Allstate India)</h3>
+        <p><strong>Duration:</strong> Sep 2022 – Sep 2023</p>
+        <p><strong>Technologies:</strong> React, ISAM, Java, Next.js</p>
+        <p><strong>Architecture:</strong> Single-SPA (Micro Frontend), TDD</p>
+        <ul>
+          <li>Led frontend development across multiple teams</li>
+          <li>Designed scalable UI components</li>
+          <li>Contributed to migration to Next.js</li>
+          <li>Implemented TDD practices</li>
+          <li>Developed Policy Management, Protection Details, Termination workflows</li>
+          <li>Integrated ISAM authentication</li>
+        </ul>
+      </div>
+
+      <div class="project">
+        <h3>Riverus Contract App</h3>
+        <p><strong>Duration:</strong> Aug 2022 – Sep 2022</p>
+        <p><strong>Technologies:</strong> React, Keycloak SSO, MySQL</p>
+        <ul>
+          <li>Developed document automation platform</li>
+          <li>Integrated PDFTron for document annotation</li>
+          <li>Implemented Keycloak SSO authentication</li>
+          <li>Built multi-tenant & multi-user features</li>
+          <li>Developed user profile management modules</li>
+          <li>Ensured responsive design & optimized performance</li>
+        </ul>
+        <p><a href="https://www.testyantra.com/">Project Link</a></p>
+      </div>
+
+      <div class="project">
+        <h3>SIA – Singapore Airlines</h3>
+        <p><strong>Duration:</strong> Oct 2020 – May 2021</p>
+        <p><strong>Technologies:</strong> React, Redux, MySQL</p>
+        <ul>
+          <li>Developed customer-facing modules for booking & CRM</li>
+          <li>Worked on Payment, Flight Booking, KrisFlyer, Help modules</li>
+          <li>Integrated APIs for real-time data</li>
+          <li>Optimized performance & cross-browser compatibility</li>
+        </ul>
+        <p><a href="https://netconnectglobal.com/">Project Link</a></p>
+      </div>
+
+      <div class="project">
+        <h3>HUE HR Management</h3>
+        <p><strong>Company:</strong> IVTL Infoview Technologies Pvt Ltd</p>
+        <p><strong>Client:</strong> Works Application (G Works Human Intelligence)</p>
+        <p><strong>Role:</strong> ERP Developer (Frontend UI Developer)</p>
+        <p><strong>Duration:</strong> Jul 2017 – Jul 2020</p>
+        <p><strong>Technologies:</strong> React, Redux, MySQL</p>
+        <p><strong>Description:</strong> Developed a comprehensive ERP-based HR management system for enterprise-level
+          business operations, focusing on scalable UI and efficient data management.</p>
+        <ul>
+          <li>Designed and developed a functional web application using React and Redux architecture</li>
+          <li>Built reusable and scalable UI components for enterprise applications</li>
+          <li>Collaborated with backend teams to integrate APIs and manage data flow</li>
+          <li>Developed and maintained multiple modules, including:
+            <ul>
+              <li>Business Information Management</li>
+              <li>HR Management</li>
+              <li>Organizational Structure and Chart Management</li>
+              <li>Approval Hierarchy Management</li>
+              <li>Resource Management</li>
+              <li>ACS Tool Management</li>
+            </ul>
+          </li>
+          <li>Ensured application performance, responsiveness, and cross-browser compatibility</li>
+          <li>Participated in requirement analysis and contributed to system design and enhancements</li>
+        </ul>
+        <p><a href="https://india.worksap.co.jp/">Project Link</a></p>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
